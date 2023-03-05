@@ -1,7 +1,7 @@
 {
-    "name": "bitcoin-pricer-backend",
+    "name": "restapi",
     "version": "1.0.0",
-    "description": "bitcoin-pricer-backend for backend",
+    "description": "rest api server",
     "author": "Ryo",
     "main": "server.js",
     "scripts": {
@@ -9,7 +9,7 @@
         "build": "tsc"
     },
     "dependencies": {
-        "axios": "^0.24.0",
+        "cors": "^2.8.5",
         "express": "^4.16.1",
         "typescript": "^4.5.5"
     }

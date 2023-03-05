@@ -2,12 +2,14 @@ FROM node:latest
 
 WORKDIR /user/src/app
 
-COPY package.json ./
+COPY package*.json ./
 
 RUN npm install  --production
 
 COPY . .
 
+RUN npm run build
+
 EXPOSE 8070
 
-CMD ["node", "server.ts"]
+CMD ["node", "server.js"]
