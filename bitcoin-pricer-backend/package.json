@@ -1,0 +1,14 @@
+{
+    "name": "bitcoin-pricer-backend",
+    "version": "1.0.0",
+    "description": "bitcoin-pricer-backend for backend",
+    "author": "kohekohe",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "express": "^4.16.1"
+    }
+}
