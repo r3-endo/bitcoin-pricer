@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.use(cors());
 
-app.get('/api/v1/date', async (req, res) => {
+app.get('/api/v1/date', async (req: any, res: { send: (arg0: string) => void; }) => {
   const date = new Date().toString();
   res.send(date);
 });

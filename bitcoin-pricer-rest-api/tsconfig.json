@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2018", // TypeScriptがコンパイルするJavaScriptのバージョンを指定します
+    "module": "commonjs", // コンパイルされたファイルのモジュールタイプを指定します
+    "outDir": "dist", // コンパイルされたJavaScriptファイルを出力するディレクトリを指定します
+    "strict": true, // 厳密な型チェックを有効にします
+    "esModuleInterop": true, // CommonJSモジュールのimportをESモジュールのimport文に変換する際に、interopを有効にします
+    "sourceMap": true,
+    "moduleResolution": "node"
+  }
+}
